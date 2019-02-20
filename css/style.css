@@ -1,0 +1,73 @@
+h1 {
+	color:lightblue;
+}
+
+p.intro {
+	 font-size:30px; 
+	 color:#99bbff; 
+	 text-align:right;
+}
+
+/* navBar Format */
+ul.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ccebff;
+}
+
+ul.navBar li {
+  float: left;
+}
+
+ul.navBar li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:10px;
+  text-decoration: none;
+}
+
+ul.navBar li a:hover {
+  background-color: #80ccff;
+}
+
+/* personalLink Format */
+ul.personalLink {
+	display: inline-block;
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+    padding: 0;
+}
+
+ul.personalLink li a {
+  	display: inline-block;
+	padding: 10px; /*Why is the padding has a little square before stackoverflow here?*/
+	text-align: center;
+}
+
+ul.personalLink li {
+	float: left;
+	border: 3px solid white;
+	background-color: #ffe6f7;
+}
+
+ul.personalLink li a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+ul.personalLink li a:visited {
+  color: #ff99cc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ul.personalLink li a:hover {
+  color: white;
+  background-color: #ff99cc;
+  text-decoration: none;
+}
